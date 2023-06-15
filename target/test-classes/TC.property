@@ -1,0 +1,7 @@
+Given
+Page=Page
+When
+Elements=searchBox,Search
+Then
+AssertType=True
+Assert=IsDisplayed,Search,searchBox 
